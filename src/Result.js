@@ -1,20 +1,11 @@
 import React, {Component} from "react";
 
-class Result extends Component {
-
-    constructor () {
-        super();
-    }
-
-    render() {
+const Result = props => {
         return (
                 <div>
-                {this.props.searchresult}
+                {props.searchresult}
                 </div>
         );
-    }
-
-
 }
 
 export default Result;
